@@ -17,3 +17,8 @@
 .content ul li:hover {
   text-decoration: underline;
 }
+
+.content a {
+  margin-left: 1rem;
+  color: #333333;
+}

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from 'next/link';
+import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 
 // STYLES
 import styles from '../styles/Navbar.module.css';
@@ -31,7 +32,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link href = '/checkout'>
-            <a>Checkout</a>
+            <a><AddShoppingCartIcon fontSize = 'large' /></a>
           </Link>
         </li>
       </ul>
